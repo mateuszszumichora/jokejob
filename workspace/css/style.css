@@ -1,0 +1,25 @@
+body {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#carousel {
+	border: 5px solid deepskyblue;
+	height: 400px;
+	width: 400px;	
+	overflow: hidden;
+}
+#carousel ul {
+	display: block;
+	width: 2000px;
+	height: 400px;
+	margin: 0px;
+	padding: 0px;
+}
+#carousel ul li {
+	float: right;
+	width: 400px;
+	height: 400px;
+	list-style-type: none;
+}
